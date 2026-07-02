@@ -1,0 +1,17 @@
+name: tpl-mandrel
+description: Mandrel development
+parent: tpl-mydev
+packages:
+  - awk
+  - "@development-tools"
+  - g++
+  - patch
+tools:
+  - sshd
+repos:
+  - url: https://github.com/galderz/mandrel.git
+    path: ~/src/mandrel
+    branch: master
+  - url: https://github.com/galderz/mx
+    path: ~/opt/mx
+    branch: topic.isx

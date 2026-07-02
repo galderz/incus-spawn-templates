@@ -1,0 +1,7 @@
+name: tpl-attimo
+description: Development of Attimo
+parent: tpl-mydev
+repos:
+  - url: https://github.com/galderz/attimo/
+    path: ~/src/attimo
+    branch: main
