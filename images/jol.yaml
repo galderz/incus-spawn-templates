@@ -1,0 +1,8 @@
+name: tpl-jol
+description: Java Object Layout (JOL) development
+parent: tpl-openjdk
+packages:
+  - maven
+repos:
+  - url: https://github.com/openjdk/jol
+    path: ~/src/jol

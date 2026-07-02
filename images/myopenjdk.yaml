@@ -1,0 +1,45 @@
+name: tpl-myopenjdk
+description: My OpenJDK development (JDK + build deps + source)
+parent: tpl-mydev
+packages:
+  - java-26-openjdk-devel
+  - autoconf
+  - alsa-lib-devel
+  - awk
+  - capstone-devel
+  - cups-devel
+  - file
+  - fontconfig-devel
+  - freetype-devel
+  - libXtst-devel
+  - libXt-devel
+  - libXrender-devel
+  - libXrandr-devel
+  - libXi-devel
+  - libjpeg-turbo-devel
+  - libpng-devel
+  - giflib-devel
+  - lcms2-devel
+  - libffi-devel
+  - libstdc++-static
+  - gcc
+  - gcc-c++
+  - make
+  - gdb
+  - zip
+  - unzip
+  - wget
+repos:
+  - url: https://github.com/openjdk/jdk.git
+    path: ~/src/jdk
+  - url: https://github.com/galderz/colata.git
+    path: ~/src/colata
+  - url: https://github.com/async-profiler/async-profiler
+    path: ~/src/async-profiler
+env:
+  - name: JAVA_25_HOME
+    value: /usr/lib/jvm/java-25
+  - name: JAVA_26_HOME
+    value: /usr/lib/jvm/java-26
+  - name: JDK_HOME
+    value: ~/src/jdk
