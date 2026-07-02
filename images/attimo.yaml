@@ -1,0 +1,10 @@
+name: tpl-attimo
+description: Development of Attimo
+parent: tpl-mydev
+tools:
+  - pi
+  - zmx
+repos:
+  - url: https://github.com/galderz/attimo/
+    path: ~/attimo
+    branch: main
