@@ -1,0 +1,7 @@
+name: tpl-crema
+description: Crema development (Mandrel)
+parent: tpl-mandrel
+repos:
+  - url: https://github.com/galderz/crema-demo.git
+    path: ~/src/crema-demo
+    branch: main
