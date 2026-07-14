@@ -1,9 +1,9 @@
 name: jtreg
-description: JTReg 8.2.1
+description: JTReg 8.3.1
 
 downloads:
-  - url: https://builds.shipilev.net/jtreg/jtreg-8.2.1%2B1.zip
-    sha256: f4271a588c7f9ce6e303ece70231186deb2b29c0e350bb2ad5c69e40c95bb551
+  - url: https://builds.shipilev.net/jtreg/jtreg-8.3%2B1.zip
+    sha256: 47d1ff5663688f41731d030542b0af735418ac2cc2fdcca407af58b1501b6826
     extract: /opt
     links:
       /opt/jtreg/bin/jtreg: /usr/local/bin/jtreg
