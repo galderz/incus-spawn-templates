@@ -2,6 +2,7 @@ name: tpl-attimo
 description: Development of Attimo
 parent: tpl-mydev
 tools:
+  - bob
   - pi
   - zmx
 repos:
