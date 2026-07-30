@@ -31,3 +31,5 @@ tools:
 repos:
   - url: https://github.com/openjdk/jdk.git
     path: ~/src/jdk
+  - url: https://github.com/galderz/colata.git
+    path: ~/src/colata
