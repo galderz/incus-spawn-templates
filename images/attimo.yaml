@@ -4,6 +4,7 @@ parent: tpl-mydev
 tools:
   - bob
   - pi
+  - sshd
   - zmx
 repos:
   - url: https://github.com/galderz/attimo/
