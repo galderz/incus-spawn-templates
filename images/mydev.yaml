@@ -3,3 +3,4 @@ description: Host-specific sharing layer
 parent: tpl-java
 packages:
   - tig
+  - emacs-nox
