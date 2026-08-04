@@ -27,7 +27,6 @@ packages:
   - unzip
 tools:
   - sshd
-  - jtreg
 repos:
   - url: https://github.com/openjdk/jdk.git
     path: ~/src/jdk
