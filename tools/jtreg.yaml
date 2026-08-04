@@ -3,7 +3,7 @@ description: JTReg 8.3.1
 
 downloads:
   - url: https://builds.shipilev.net/jtreg/jtreg-8.3%2B1.zip
-    sha256: 47d1ff5663688f41731d030542b0af735418ac2cc2fdcca407af58b1501b6826
+    sha256: 74db8dbb122fb01217e2ca13129c0cffa7ece3ac5eb6a47d934130d6ed0855c2
     extract: /opt
     links:
       /opt/jtreg/bin/jtreg: /usr/local/bin/jtreg
