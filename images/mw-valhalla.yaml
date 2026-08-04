@@ -4,7 +4,7 @@ parent: tpl-openjdk
 tools:
   - podman
   - gradle
-  - phi
+  - pi
 packages:
   - unzip
 repos:
