@@ -1,0 +1,15 @@
+name: tpl-graal
+description: GraalVM development
+parent: tpl-mydev
+packages:
+  - awk
+  - "@development-tools"
+  - g++
+  - patch
+repos:
+  - url: https://github.com/oracle/graal.git
+    path: ~/src/graal
+    branch: master
+  - url: https://github.com/graalvm/mx
+    path: ~/opt/mx
+    branch: master
