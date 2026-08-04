@@ -27,8 +27,6 @@ packages:
   - gdb
   - zip
   - unzip
-tools:
-  - sshd
 repos:
   - url: https://github.com/openjdk/jdk.git
     path: ~/src/jdk

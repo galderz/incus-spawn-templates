@@ -4,3 +4,5 @@ parent: tpl-java
 packages:
   - tig
   - emacs-nox
+tools:
+  - sshd
