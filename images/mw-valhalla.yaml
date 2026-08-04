@@ -8,12 +8,12 @@ tools:
 packages:
   - unzip
 repos:
+  - url: https://github.com/hibernate/hibernate-orm.git
+    path: ~/src/hibernate-orm
+    prime: gradle dependencies
   - url: https://github.com/quarkusio/quarkus.git
     path: ~/src/quarkus
   - url: https://github.com/quarkusio/quarkus-quickstarts
     path: ~/src/quarkus-quickstarts
   - url: https://github.com/galderz/spring-quarkus-perf-comparison
     path: ~/src/spring-quarkus-perf-comparison
-  - url: https://github.com/hibernate/hibernate-orm.git
-    path: ~/src/hibernate-orm
-    prime: gradle dependencies
