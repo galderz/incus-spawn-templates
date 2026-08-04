@@ -6,3 +6,4 @@ packages:
   - emacs-nox
 tools:
   - sshd
+  - pi
