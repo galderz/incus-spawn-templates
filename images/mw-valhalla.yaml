@@ -6,6 +6,9 @@ tools:
   - gradle
   - pi
 packages:
+  - jq
+  - lscpi
+  - time
   - unzip
 repos:
   - url: https://github.com/hibernate/hibernate-orm.git
