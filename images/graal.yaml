@@ -11,5 +11,5 @@ repos:
     path: ~/src/graal
     branch: master
   - url: https://github.com/graalvm/mx
-    path: ~/opt/mx
+    path: ~/src/mx
     branch: master
