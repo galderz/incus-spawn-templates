@@ -27,6 +27,7 @@ packages:
   - gdb
   - zip
   - unzip
+  - wget
 repos:
   - url: https://github.com/openjdk/jdk.git
     path: ~/src/jdk
