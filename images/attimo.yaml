@@ -1,10 +1,6 @@
 name: tpl-attimo
 description: Development of Attimo
 parent: tpl-mydev
-tools:
-  - bob
-  - pi
-  - sshd
 repos:
   - url: https://github.com/galderz/attimo/
     path: ~/attimo
