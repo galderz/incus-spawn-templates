@@ -3,5 +3,5 @@ description: Development of Attimo
 parent: tpl-mydev
 repos:
   - url: https://github.com/galderz/attimo/
-    path: ~/attimo
+    path: ~/src/attimo
     branch: main
