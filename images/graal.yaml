@@ -13,9 +13,9 @@ repos:
   - url: https://github.com/graalvm/mx
     path: ~/src/mx
     branch: master
-  - url: https://github.com/openjdk/jmh
+  - url: https://github.com/galderz/jmh
     path: ~/src/jmh
-    branch: master
+    branch: topic.fibula-refactors
   - url: https://github.com/galderz/fibula
     path: ~/src/fibula
     branch: main
