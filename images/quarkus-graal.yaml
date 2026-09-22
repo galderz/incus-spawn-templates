@@ -1,0 +1,17 @@
+name: tpl-quarkus-graal
+description: Quarkus + GraalVM development
+parent: tpl-mydev
+packages:
+  - awk
+  - "@development-tools"
+  - g++
+  - patch
+repos:
+  - url: https://github.com/oracle/graal.git
+    path: ~/src/graal
+  - url: https://github.com/graalvm/mx
+    path: ~/src/mx
+  - url: https://github.com/quarkusio/quarkus
+    path: ~/src/quarkus
+  - url: https://github.com/galderz/mendrugo
+    path: ~/src/mendrugo
