@@ -19,3 +19,6 @@ repos:
   - url: https://github.com/galderz/fibula
     path: ~/src/fibula
     branch: main
+  - url: https://github.com/galderz/fibula-show
+    path: ~/src/fibula-show
+    branch: main
