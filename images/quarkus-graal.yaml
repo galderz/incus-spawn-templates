@@ -15,3 +15,8 @@ repos:
     path: ~/src/quarkus
   - url: https://github.com/galderz/mendrugo
     path: ~/src/mendrugo
+env:
+  - name: PATH
+    value: ~/src/mx
+    strategy: append
+    separator: ":"
