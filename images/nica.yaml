@@ -1,0 +1,6 @@
+name: tpl-nica
+description: Development of Nica
+parent: tpl-mydev
+repos:
+  - url: https://github.com/galderz/nica/
+    path: ~/src/nica
