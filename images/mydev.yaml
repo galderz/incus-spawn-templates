@@ -3,5 +3,9 @@ description: Host-specific sharing layer
 parent: tpl-java
 tools:
   - claude
+  - bob
+  - sshd
+  - pi
 packages:
   - tig
+  - emacs-nox
