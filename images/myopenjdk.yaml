@@ -2,7 +2,7 @@ name: tpl-myopenjdk
 description: My OpenJDK development (JDK + build deps + source)
 parent: tpl-mydev
 packages:
-  - java-26-openjdk-devel
+  - java-latest-openjdk-devel
   - autoconf
   - alsa-lib-devel
   - awk
@@ -39,7 +39,7 @@ repos:
 env:
   - name: JAVA_25_HOME
     value: /usr/lib/jvm/java-25
-  - name: JAVA_26_HOME
-    value: /usr/lib/jvm/java-26
+  - name: JAVA_LATEST_HOME
+    value: /usr/lib/jvm/java-latest-openjdk
   - name: JDK_HOME
     value: ~/src/jdk
