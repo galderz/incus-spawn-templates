@@ -6,5 +6,5 @@ packages:
 repos:
   - url: https://github.com/galderz/nica/
     path: ~/src/nica
-  - url: https://github.com/galderz/afmt/
-    path: ~/src/afmt
+  - url: https://github.com/Netflix/jfmt/
+    path: ~/src/jfmt
