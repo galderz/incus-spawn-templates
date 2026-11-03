@@ -7,7 +7,6 @@ tools:
   - pi
 packages:
   - jq
-  - lscpi
   - time
   - unzip
 repos:
