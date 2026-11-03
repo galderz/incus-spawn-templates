@@ -1,6 +1,6 @@
 name: tpl-mw-valhalla
 description: Valhalla development (JDK + Quarkus + Hibernate + build deps + source)
-parent: tpl-openjdk
+parent: tpl-myopenjdk
 tools:
   - podman
   - gradle
