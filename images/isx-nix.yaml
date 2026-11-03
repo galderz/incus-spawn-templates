@@ -1,11 +1,6 @@
 name: tpl-isx-nix
 description: Development of Incus Spawn (isx) and Nixpkgs
-parent: tpl-incus-spawn
-tools:
-  - zmx
-  - pi
-default-action: pi
+parent: tpl-isx
 repos:
-  - url: https://github.com/galderz/nixpkgs
-    path: ~/nixpkgs
-    branch: master
+  - url: https://github.com/NixOS/nixpkgs
+    path: ~/src/nixpkgs
