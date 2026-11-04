@@ -7,6 +7,10 @@ tools:
   - pi
 packages:
   - jq
+  - numactl-devel
+  - pciutils
+  - rsync
+  - sysstat
   - time
   - unzip
 repos:
