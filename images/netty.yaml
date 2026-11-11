@@ -1,0 +1,6 @@
+name: tpl-netty
+description: Development of Netty
+parent: tpl-fibula
+repos:
+  - url: https://github.com/galderz/netty/
+    path: ~/src/netty

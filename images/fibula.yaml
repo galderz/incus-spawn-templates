@@ -1,0 +1,15 @@
+name: tpl-fibula
+description: Development of Fibula
+parent: tpl-mydev
+tools:
+  - graalvm
+repos:
+  - url: https://github.com/galderz/fibula-show/
+    path: ~/src/fibula-show
+  - url: https://github.com/galderz/fibula/
+    path: ~/src/fibula
+    prime: mvn install -DskipTests
+  - url: https://github.com/galderz/jmh/
+    path: ~/src/jmh
+    branch: topic.fibula-refactors
+    prime: mvn install -DskipTests
