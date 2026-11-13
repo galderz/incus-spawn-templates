@@ -5,7 +5,7 @@ tools:
   - claude
   - bob
   - sshd
-  - pi
+  - pi-enmaas
 packages:
   - tig
   - emacs-nox
